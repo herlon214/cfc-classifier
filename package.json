@@ -1,6 +1,6 @@
 {
   "name": "cfc-classifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Class Feature Centroid Classifier for text categorization",
   "main": "src/index.js",
   "files": [
