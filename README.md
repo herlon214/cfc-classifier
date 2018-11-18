@@ -1,6 +1,8 @@
 # Class Feature Centroid Classifier
 This is a simple machine learning algorithm for text categorization based in the Hu Guan et al. ([available here](http://www2009.eprints.org/21/1/p201.pdf)).
 
+![How centroid is calculated](./algorithm.png)
+
 ```
 $ npm i cfc-classifier
 ```
