@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A Class Feature Centroid Classifier for text categorization",
   "main": "src/index.js",
+  "files": [
+    "src"
+  ],
   "repository": {
-    "url": "git@github.com:herlon214/cfc-classifier.git",
+    "url": "git+https://github.com/herlon214/cfc-classifier.git",
     "type": "git"
   },
   "dependencies": {
@@ -18,6 +21,9 @@
   },
   "scripts": {
     "test": "DEBUG=ava:* nyc ava --color -v"
+  },
+  "bugs": {
+    "url": "https://github.com/herlon214/cfc-classifier.git"
   },
   "keywords": [
     "classifier",
