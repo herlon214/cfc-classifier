@@ -1,0 +1,32 @@
+{
+  "name": "cfc-classifier",
+  "version": "1.0.0",
+  "description": "A Class Feature Centroid Classifier for text categorization",
+  "main": "src/index.js",
+  "repository": {
+    "url": "git@github.com:herlon214/cfc-classifier.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "ava": "^1.0.0-rc.2",
+    "compute-cosine-similarity": "^1.0.0",
+    "lodash": "^4.17.11",
+    "natural": "^0.6.2"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0"
+  },
+  "scripts": {
+    "test": "DEBUG=ava:* nyc ava --color -v"
+  },
+  "keywords": [
+    "classifier",
+    "cfc",
+    "centroid",
+    "machine",
+    "learning",
+    "text categorization"
+  ],
+  "author": "Herlon Aguiar",
+  "license": "ISC"
+}
